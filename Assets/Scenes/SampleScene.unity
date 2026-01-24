@@ -354,19 +354,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 319130790}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1499098154}
-        m_TargetAssemblyTypeName: SpinManager, Assembly-CSharp
-        m_MethodName: GoTGFirstSpin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &319130790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,6 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpinManager
   PopAppGoTGFirstSpin: {fileID: 851433770}
+  ButtonSpin: {fileID: 319130789}
 --- !u!4 &1499098155
 Transform:
   m_ObjectHideFlags: 0
@@ -1216,7 +1205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2292748284110788907, guid: 2ae4e0c8b7407b948af4379999a2e8cd, type: 3}
+  m_Sprite: {fileID: -8635233584502960418, guid: 2e1bab0c82bade94790dd2b0d790e116, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
