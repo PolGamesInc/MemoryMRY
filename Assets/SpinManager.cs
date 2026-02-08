@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SpinManager : MonoBehaviour
@@ -81,13 +81,14 @@ public class SpinManager : MonoBehaviour
     #region FreeFiveSpins
     public void ClickFreeSpin()
     {
-        SpinIndex = Random.Range(1, 9);
+        //SpinIndex = Random.Range(1, 9);
+        SpinIndex = 1;
     }
     #endregion
 
-    private void OpenMyPerson()
+    public void OpenMyPerson()
     {
-        print("OpenMyPerson");
+        SceneManager.LoadScene(1);
     }
 
     private IEnumerator WaitSpeenWheel()
@@ -98,6 +99,6 @@ public class SpinManager : MonoBehaviour
         BlurAnimator = BlurObject.GetComponent<Animator>();
         BlurObject.SetActive(true);
         BlurAnimator.SetTrigger("VisibleBlur");
-        ButtonMyPerson.onClick.AddListener(OpenMyPerson);
+        //ButtonMyPerson.onClick.AddListener(OpenMyPerson);
     }
 }

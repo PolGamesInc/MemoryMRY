@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Upgrade
+  m_Name: AnarUpgrade2
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -82,9 +82,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 2996452673568778450, guid: 92d296cd29e29bf4c83f645fe4c48c93, type: 3}
-    - time: 0.68333334
       value: {fileID: -7826835491574868713, guid: e547ba434f54452438df69233950350e, type: 3}
+    - time: 0.68333334
+      value: {fileID: -7518296900060622147, guid: 00b43dbd07693174dae71bc4024b6cbe, type: 3}
     attribute: m_Sprite
     path: 
     classID: 114
@@ -116,8 +116,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 2996452673568778450, guid: 92d296cd29e29bf4c83f645fe4c48c93, type: 3}
     - {fileID: -7826835491574868713, guid: e547ba434f54452438df69233950350e, type: 3}
+    - {fileID: -7518296900060622147, guid: 00b43dbd07693174dae71bc4024b6cbe, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
